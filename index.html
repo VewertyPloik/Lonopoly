@@ -44,7 +44,7 @@
     <h1>Lonopoly — By Vewerty Ploik</h1>
     <div class="controls">
       <label>Players
-        <select id="playerCount"><option value="2">2</option><option value="3" selected>3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select>
+        <select id="playerCount"><option value="2">2</option><option value="3" selected>3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option> <option value="8">8</option> </select>
       </label>
       <button class="btn small" id="setupBtn">Setup</button>
     </div>
@@ -125,8 +125,8 @@
   gridMap[24]=8; gridMap[23]=9; gridMap[22]=10; gridMap[21]=11; gridMap[20]=12;
   gridMap[15]=13; gridMap[10]=14; gridMap[5]=15;
 
-  const PLAYER_TOKENS=['🐔','🐸','🦈','🦦','🦅','🦁'];
-  const PLAYER_COLOR_VALUES=['#e54b4b','#04B85A','#29D8E3','#873807','#999494','#FF5900'];
+  const PLAYER_TOKENS=['🐔','🐸','🦈','🦦','🦅','🦁','🐷','🐙'];
+  const PLAYER_COLOR_VALUES=['#e54b4b','#04B85A','#29D8E3','#873807','#999494','#FF7308', '#FFA6E9 ', '#D60470'];
 
   let state={players:[],current:0,started:false,log:[]};
   let hasRolled = false; // anti-cheat: per-turn roll flag
